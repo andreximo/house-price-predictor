@@ -40,3 +40,6 @@ joblib==1.5.3
 setuptools==82.0.1
 ipykernel==7.2.0
 jupyterlab==4.5.6
+
+#Python Core 3.12
+#Image Base 3.12.13-slim
