@@ -9,6 +9,7 @@ Following is all the information you would need to start building the container 
   * To install dependencies: `pip install requirements.txt`
   * Port: `8000`
   * Launch Command : `uvicorn main:app --host 0.0.0.0 --port 8000`
+  * To create container: docker run -idtp 8005:8005 modelapi:v2
 
 Directory structure inside the container should look like this 
 
