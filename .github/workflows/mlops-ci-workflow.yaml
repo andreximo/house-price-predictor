@@ -3,14 +3,14 @@ name: MLOps CI
 on:
   push:
     branches:
-      -main
-  pull-request:
+      - main
+  pull_request:
     branches:
-      -main
+      - main
 
 jobs:
-  workfkows:
-    runs-on: ubuntu-latest
+  workflows: #Nombre del job
+    runs-on: ubuntu-latest #Contenedor donde se ejecutara
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
